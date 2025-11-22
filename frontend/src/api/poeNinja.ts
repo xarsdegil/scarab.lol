@@ -1,4 +1,5 @@
 import type { ScarabLine, ScarabOverviewResponse } from '../types'
+import { getEnvValue } from '../envFallback'
 
 const API_ROUTE = '/api/scarabs'
 const DEFAULT_PARAMS = new URLSearchParams({
@@ -7,7 +8,7 @@ const DEFAULT_PARAMS = new URLSearchParams({
 })
 
 function resolveBackendBaseUrl() {
-  const envBase = import.meta.env.VITE_API_URL as string | undefined
+  const envBase = getEnvValue('VITE_API_URL')
   if (envBase && envBase.length > 0) {
     return envBase.endsWith('/') ? envBase.slice(0, -1) : envBase
   }
@@ -36,3 +37,4 @@ export async function fetchScarabPrices(signal?: AbortSignal): Promise<ScarabLin
 
   return payload.lines.filter((line) => typeof line.chaosValue === 'number')
 }
+

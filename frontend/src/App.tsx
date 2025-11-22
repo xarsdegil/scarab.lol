@@ -3,24 +3,32 @@ import './App.css'
 import { useScarabPrices } from './hooks/useScarabPrices'
 import type { ScarabLine } from './types'
 import { getRegexFor } from './regexMap'
+import { getEnvValue } from './envFallback'
 
 const DEFAULT_MIN_PRICE = 0
 const DEFAULT_MAX_PRICE = 0.7
 const PRICE_STEP = 0.01
 const MAX_REGEX_LENGTH = 300
-const CONTACT_EMAIL = import.meta.env.VITE_CONTACT_EMAIL ?? 'you@example.com'
-const CONTACT_SOCIAL_LABEL = import.meta.env.VITE_CONTACT_SOCIAL_LABEL ?? '@yourhandle'
-const CONTACT_SOCIAL_URL = import.meta.env.VITE_CONTACT_SOCIAL_URL ?? 'https://x.com/yourhandle'
+const TAB_TITLE = 'gl for your gamba exile'
+const CONTACT_EMAIL = getEnvValue('VITE_CONTACT_EMAIL') ?? 'you@example.com'
+const CONTACT_SOCIAL_LABEL = getEnvValue('VITE_CONTACT_SOCIAL_LABEL') ?? '@yourhandle'
+const CONTACT_SOCIAL_URL = getEnvValue('VITE_CONTACT_SOCIAL_URL') ?? 'https://x.com/yourhandle'
 
 function formatChaos(value: number) {
   return `${value.toFixed(2)}c`
 }
 
 function App() {
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      document.title = TAB_TITLE
+    }
+  }, [])
+
   const [priceRange, setPriceRange] = useState({ min: DEFAULT_MIN_PRICE, max: DEFAULT_MAX_PRICE })
   const [selection, setSelection] = useState<Record<string, boolean>>({})
   const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'error'>('idle')
-  const copyTimeoutRef = useRef<number>()
+  const copyTimeoutRef = useRef<number | null>(null)
   const { sortedData, isLoading, isError, error, refetch, isFetching } = useScarabPrices()
 
   const sliderMax = useMemo(() => {
@@ -46,6 +54,27 @@ function App() {
   const combinedRegex = regexParts.length ? `"${regexParts.join('|')}"` : '""'
   const regexLength = combinedRegex.length
   const regexTooLong = regexLength > MAX_REGEX_LENGTH
+
+  useEffect(() => {
+    if (typeof document === 'undefined') {
+      return
+    }
+    const iconCandidates = sortedData
+      .map((line) => line.icon)
+      .filter((icon): icon is string => Boolean(icon))
+    if (!iconCandidates.length) {
+      return
+    }
+
+    const randomIcon = iconCandidates[Math.floor(Math.random() * iconCandidates.length)]
+    let link = document.querySelector("link[rel*='icon']") as HTMLLinkElement | null
+    if (!link) {
+      link = document.createElement('link')
+      link.rel = 'icon'
+      document.head.appendChild(link)
+    }
+    link.href = randomIcon
+  }, [sortedData])
 
   useEffect(() => {
     setSelection((prev) => {
@@ -93,15 +122,17 @@ function App() {
 
   useEffect(() => {
     return () => {
-      if (copyTimeoutRef.current) {
+      if (copyTimeoutRef.current !== null) {
         window.clearTimeout(copyTimeoutRef.current)
+        copyTimeoutRef.current = null
       }
     }
   }, [])
 
   const scheduleCopyReset = () => {
-    if (copyTimeoutRef.current) {
+    if (copyTimeoutRef.current !== null) {
       window.clearTimeout(copyTimeoutRef.current)
+      copyTimeoutRef.current = null
     }
     copyTimeoutRef.current = window.setTimeout(() => setCopyStatus('idle'), 2000)
   }
@@ -271,3 +302,5 @@ function App() {
 }
 
 export default App
+
+
