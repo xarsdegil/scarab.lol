@@ -1,0 +1,763 @@
+{
+  "generated_at": "2025-11-22T15:05:49.056182+00:00",
+  "source_data": "data.json",
+  "pattern_count": 108,
+  "patterns": [
+    {
+      "detailsId": "breach-scarab-of-lordship",
+      "name": "Breach Scarab of Lordship",
+      "regex": "dsh",
+      "source_field": "name",
+      "match_text": "dsh"
+    },
+    {
+      "detailsId": "horned-scarab-of-preservation",
+      "name": "Horned Scarab of Preservation",
+      "regex": "rva",
+      "source_field": "name",
+      "match_text": "rva"
+    },
+    {
+      "detailsId": "ultimatum-scarab-of-catalysing",
+      "name": "Ultimatum Scarab of Catalysing",
+      "regex": "ysi",
+      "source_field": "name",
+      "match_text": "ysi"
+    },
+    {
+      "detailsId": "ambush-scarab-of-containment",
+      "name": "Ambush Scarab of Containment",
+      "regex": "a'",
+      "source_field": "explicit_modifier_0",
+      "match_text": "a'"
+    },
+    {
+      "detailsId": "horned-scarab-of-awakening",
+      "name": "Horned Scarab of Awakening",
+      "regex": "wak",
+      "source_field": "name",
+      "match_text": "wak"
+    },
+    {
+      "detailsId": "horned-scarab-of-pandemonium",
+      "name": "Horned Scarab of Pandemonium",
+      "regex": "dem",
+      "source_field": "name",
+      "match_text": "dem"
+    },
+    {
+      "detailsId": "horned-scarab-of-bloodlines",
+      "name": "Horned Scarab of Bloodlines",
+      "regex": "urv",
+      "source_field": "flavourText",
+      "match_text": "urv"
+    },
+    {
+      "detailsId": "breach-scarab-of-snares",
+      "name": "Breach Scarab of Snares",
+      "regex": "p\\.",
+      "source_field": "flavourText",
+      "match_text": "p."
+    },
+    {
+      "detailsId": "breach-scarab",
+      "name": "Breach Scarab",
+      "regex": "ar\\.",
+      "source_field": "flavourText",
+      "match_text": "ar."
+    },
+    {
+      "detailsId": "blight-scarab-of-invigoration",
+      "name": "Blight Scarab of Invigoration",
+      "regex": "nvi",
+      "source_field": "name",
+      "match_text": "nvi"
+    },
+    {
+      "detailsId": "breach-scarab-of-splintering",
+      "name": "Breach Scarab of Splintering",
+      "regex": "Spli",
+      "source_field": "name",
+      "match_text": "Spli"
+    },
+    {
+      "detailsId": "domination-scarab-of-terrors",
+      "name": "Domination Scarab of Terrors",
+      "regex": "tev",
+      "source_field": "flavourText",
+      "match_text": "tev"
+    },
+    {
+      "detailsId": "horned-scarab-of-nemeses",
+      "name": "Horned Scarab of Nemeses",
+      "regex": "tig",
+      "source_field": "flavourText",
+      "match_text": "tig"
+    },
+    {
+      "detailsId": "harvest-scarab-of-cornucopia",
+      "name": "Harvest Scarab of Cornucopia",
+      "regex": "rnu",
+      "source_field": "name",
+      "match_text": "rnu"
+    },
+    {
+      "detailsId": "essence-scarab-of-calcification",
+      "name": "Essence Scarab of Calcification",
+      "regex": "alc",
+      "source_field": "name",
+      "match_text": "alc"
+    },
+    {
+      "detailsId": "cartography-scarab-of-risk",
+      "name": "Cartography Scarab of Risk",
+      "regex": "efl",
+      "source_field": "flavourText",
+      "match_text": "efl"
+    },
+    {
+      "detailsId": "harvest-scarab-of-doubling",
+      "name": "Harvest Scarab of Doubling",
+      "regex": "Dou",
+      "source_field": "name",
+      "match_text": "Dou"
+    },
+    {
+      "detailsId": "blight-scarab-of-blooming",
+      "name": "Blight Scarab of Blooming",
+      "regex": "t-",
+      "source_field": "explicit_modifier_0",
+      "match_text": "t-"
+    },
+    {
+      "detailsId": "divination-scarab-of-the-cloister",
+      "name": "Divination Scarab of The Cloister",
+      "regex": "loi",
+      "source_field": "name",
+      "match_text": "loi"
+    },
+    {
+      "detailsId": "ambush-scarab-of-discernment",
+      "name": "Ambush Scarab of Discernment",
+      "regex": "isc",
+      "source_field": "name",
+      "match_text": "isc"
+    },
+    {
+      "detailsId": "harbinger-scarab-of-regency",
+      "name": "Harbinger Scarab of Regency",
+      "regex": "rfu",
+      "source_field": "explicit_modifier_0",
+      "match_text": "rfu"
+    },
+    {
+      "detailsId": "ritual-scarab-of-abundance",
+      "name": "Ritual Scarab of Abundance",
+      "regex": "Abu",
+      "source_field": "name",
+      "match_text": "Abu"
+    },
+    {
+      "detailsId": "incursion-scarab-of-timelines",
+      "name": "Incursion Scarab of Timelines",
+      "regex": "h,",
+      "source_field": "flavourText",
+      "match_text": "h,"
+    },
+    {
+      "detailsId": "harbinger-scarab-of-warhoards",
+      "name": "Harbinger Scarab of Warhoards",
+      "regex": "arh",
+      "source_field": "name",
+      "match_text": "arh"
+    },
+    {
+      "detailsId": "ultimatum-scarab-of-dueling",
+      "name": "Ultimatum Scarab of Dueling",
+      "regex": "Due",
+      "source_field": "name",
+      "match_text": "Due"
+    },
+    {
+      "detailsId": "legion-scarab-of-eternal-conflict",
+      "name": "Legion Scarab of Eternal Conflict",
+      "regex": "rna",
+      "source_field": "name",
+      "match_text": "rna"
+    },
+    {
+      "detailsId": "horned-scarab-of-glittering",
+      "name": "Horned Scarab of Glittering",
+      "regex": "%,",
+      "source_field": "explicit_modifier_0",
+      "match_text": "%,"
+    },
+    {
+      "detailsId": "abyss-scarab-of-profound-depth",
+      "name": "Abyss Scarab of Profound Depth",
+      "regex": "g,",
+      "source_field": "flavourText",
+      "match_text": "g,"
+    },
+    {
+      "detailsId": "divination-scarab-of-pilfering",
+      "name": "Divination Scarab of Pilfering",
+      "regex": "ilf",
+      "source_field": "name",
+      "match_text": "ilf"
+    },
+    {
+      "detailsId": "kalguuran-scarab-of-refinement",
+      "name": "Kalguuran Scarab of Refinement",
+      "regex": "Sme",
+      "source_field": "explicit_modifier_0",
+      "match_text": "Sme"
+    },
+    {
+      "detailsId": "delirium-scarab-of-paranoia",
+      "name": "Delirium Scarab of Paranoia",
+      "regex": "noi",
+      "source_field": "name",
+      "match_text": "noi"
+    },
+    {
+      "detailsId": "essence-scarab-of-adaptation",
+      "name": "Essence Scarab of Adaptation",
+      "regex": "Ada",
+      "source_field": "name",
+      "match_text": "Ada"
+    },
+    {
+      "detailsId": "bestiary-scarab-of-duplicating",
+      "name": "Bestiary Scarab of Duplicating",
+      "regex": "\"W",
+      "source_field": "flavourText",
+      "match_text": "\"W"
+    },
+    {
+      "detailsId": "ultimatum-scarab-of-bribing",
+      "name": "Ultimatum Scarab of Bribing",
+      "regex": "ibi",
+      "source_field": "name",
+      "match_text": "ibi"
+    },
+    {
+      "detailsId": "essence-scarab-of-ascent",
+      "name": "Essence Scarab of Ascent",
+      "regex": "Asc",
+      "source_field": "name",
+      "match_text": "Asc"
+    },
+    {
+      "detailsId": "ultimatum-scarab-of-inscription",
+      "name": "Ultimatum Scarab of Inscription",
+      "regex": "nsc",
+      "source_field": "name",
+      "match_text": "nsc"
+    },
+    {
+      "detailsId": "horned-scarab-of-tradition",
+      "name": "Horned Scarab of Tradition",
+      "regex": "ges",
+      "source_field": "flavourText",
+      "match_text": "ges"
+    },
+    {
+      "detailsId": "scarab-of-radiant-storms",
+      "name": "Scarab of Radiant Storms",
+      "regex": "o\\.",
+      "source_field": "flavourText",
+      "match_text": "o."
+    },
+    {
+      "detailsId": "divination-scarab-of-plenty",
+      "name": "Divination Scarab of Plenty",
+      "regex": "usa",
+      "source_field": "flavourText",
+      "match_text": "usa"
+    },
+    {
+      "detailsId": "cartography-scarab-of-corruption",
+      "name": "Cartography Scarab of Corruption",
+      "regex": "-U",
+      "source_field": "explicit_modifier_0",
+      "match_text": "-U"
+    },
+    {
+      "detailsId": "scarab-of-monstrous-lineage",
+      "name": "Scarab of Monstrous Lineage",
+      "regex": "eag",
+      "source_field": "name",
+      "match_text": "eag"
+    },
+    {
+      "detailsId": "influencing-scarab-of-conversion",
+      "name": "Influencing Scarab of Conversion",
+      "regex": "onv",
+      "source_field": "name",
+      "match_text": "onv"
+    },
+    {
+      "detailsId": "legion-scarab",
+      "name": "Legion Scarab",
+      "regex": "r\\?",
+      "source_field": "flavourText",
+      "match_text": "r?"
+    },
+    {
+      "detailsId": "ambush-scarab-of-potency",
+      "name": "Ambush Scarab of Potency",
+      "regex": "x\\.",
+      "source_field": "flavourText",
+      "match_text": "x."
+    },
+    {
+      "detailsId": "harbinger-scarab",
+      "name": "Harbinger Scarab",
+      "regex": "oop",
+      "source_field": "flavourText",
+      "match_text": "oop"
+    },
+    {
+      "detailsId": "delirium-scarab-of-mania",
+      "name": "Delirium Scarab of Mania",
+      "regex": "y'",
+      "source_field": "flavourText",
+      "match_text": "y'"
+    },
+    {
+      "detailsId": "bestiary-scarab-of-the-herd",
+      "name": "Bestiary Scarab of the Herd",
+      "regex": "erd",
+      "source_field": "name",
+      "match_text": "erd"
+    },
+    {
+      "detailsId": "ambush-scarab",
+      "name": "Ambush Scarab",
+      "regex": "u'",
+      "source_field": "flavourText",
+      "match_text": "u'"
+    },
+    {
+      "detailsId": "anarchy-scarab-of-gigantification",
+      "name": "Anarchy Scarab of Gigantification",
+      "regex": "Gig",
+      "source_field": "name",
+      "match_text": "Gig"
+    },
+    {
+      "detailsId": "abyss-scarab-of-multitudes",
+      "name": "Abyss Scarab of Multitudes",
+      "regex": "cea",
+      "source_field": "flavourText",
+      "match_text": "cea"
+    },
+    {
+      "detailsId": "beyond-scarab-of-the-invasion",
+      "name": "Beyond Scarab of the Invasion",
+      "regex": "lmo",
+      "source_field": "flavourText",
+      "match_text": "lmo"
+    },
+    {
+      "detailsId": "ambush-scarab-of-hidden-compartments",
+      "name": "Ambush Scarab of Hidden Compartments",
+      "regex": "rtm",
+      "source_field": "name",
+      "match_text": "rtm"
+    },
+    {
+      "detailsId": "abyss-scarab-of-edifice",
+      "name": "Abyss Scarab of Edifice",
+      "regex": "ssa",
+      "source_field": "explicit_modifier_0",
+      "match_text": "ssa"
+    },
+    {
+      "detailsId": "influencing-scarab-of-hordes",
+      "name": "Influencing Scarab of Hordes",
+      "regex": "Hord",
+      "source_field": "name",
+      "match_text": "Hord"
+    },
+    {
+      "detailsId": "expedition-scarab-of-runefinding",
+      "name": "Expedition Scarab of Runefinding",
+      "regex": "nef",
+      "source_field": "name",
+      "match_text": "nef"
+    },
+    {
+      "detailsId": "delirium-scarab-of-delusions",
+      "name": "Delirium Scarab of Delusions",
+      "regex": "elu",
+      "source_field": "name",
+      "match_text": "elu"
+    },
+    {
+      "detailsId": "incursion-scarab-of-champions",
+      "name": "Incursion Scarab of Champions",
+      "regex": "ham",
+      "source_field": "name",
+      "match_text": "ham"
+    },
+    {
+      "detailsId": "expedition-scarab-of-archaeology",
+      "name": "Expedition Scarab of Archaeology",
+      "regex": "aeo",
+      "source_field": "name",
+      "match_text": "aeo"
+    },
+    {
+      "detailsId": "beyond-scarab-of-resurgence",
+      "name": "Beyond Scarab of Resurgence",
+      "regex": "urg",
+      "source_field": "name",
+      "match_text": "urg"
+    },
+    {
+      "detailsId": "scarab-of-stability",
+      "name": "Scarab of Stability",
+      "regex": "g!",
+      "source_field": "flavourText",
+      "match_text": "g!"
+    },
+    {
+      "detailsId": "legion-scarab-of-officers",
+      "name": "Legion Scarab of Officers",
+      "regex": "gea",
+      "source_field": "explicit_modifier_0",
+      "match_text": "gea"
+    },
+    {
+      "detailsId": "scarab-of-wisps",
+      "name": "Scarab of Wisps",
+      "regex": "200",
+      "source_field": "explicit_modifier_0",
+      "match_text": "200"
+    },
+    {
+      "detailsId": "cartography-scarab-of-the-multitude",
+      "name": "Cartography Scarab of the Multitude",
+      "regex": "300",
+      "source_field": "explicit_modifier_0",
+      "match_text": "300"
+    },
+    {
+      "detailsId": "ritual-scarab-of-wisps",
+      "name": "Ritual Scarab of Wisps",
+      "regex": "ibu",
+      "source_field": "explicit_modifier_0",
+      "match_text": "ibu"
+    },
+    {
+      "detailsId": "blight-scarab-of-the-blightheart",
+      "name": "Blight Scarab of the Blightheart",
+      "regex": "hth",
+      "source_field": "name",
+      "match_text": "hth"
+    },
+    {
+      "detailsId": "harbinger-scarab-of-obelisks",
+      "name": "Harbinger Scarab of Obelisks",
+      "regex": "Obe",
+      "source_field": "name",
+      "match_text": "Obe"
+    },
+    {
+      "detailsId": "domination-scarab-of-apparitions",
+      "name": "Domination Scarab of Apparitions",
+      "regex": "adn",
+      "source_field": "flavourText",
+      "match_text": "adn"
+    },
+    {
+      "detailsId": "domination-scarab-of-evolution",
+      "name": "Domination Scarab of Evolution",
+      "regex": "olu",
+      "source_field": "name",
+      "match_text": "olu"
+    },
+    {
+      "detailsId": "titanic-scarab-of-legend",
+      "name": "Titanic Scarab of Legend",
+      "regex": "-4",
+      "source_field": "explicit_modifier_0",
+      "match_text": "-4"
+    },
+    {
+      "detailsId": "titanic-scarab-of-treasures",
+      "name": "Titanic Scarab of Treasures",
+      "regex": "Gree",
+      "source_field": "flavourText",
+      "match_text": "Gree"
+    },
+    {
+      "detailsId": "scarab-of-bisection",
+      "name": "Scarab of Bisection",
+      "regex": "f,",
+      "source_field": "flavourText",
+      "match_text": "f,"
+    },
+    {
+      "detailsId": "kalguuran-scarab",
+      "name": "Kalguuran Scarab",
+      "regex": "vei",
+      "source_field": "flavourText",
+      "match_text": "vei"
+    },
+    {
+      "detailsId": "kalguuran-scarab-of-guarded-riches",
+      "name": "Kalguuran Scarab of Guarded Riches",
+      "regex": "g'",
+      "source_field": "flavourText",
+      "match_text": "g'"
+    },
+    {
+      "detailsId": "betrayal-scarab-of-reinforcements",
+      "name": "Betrayal Scarab of Reinforcements",
+      "regex": "Rei",
+      "source_field": "name",
+      "match_text": "Rei"
+    },
+    {
+      "detailsId": "anarchy-scarab",
+      "name": "Anarchy Scarab",
+      "regex": "it'",
+      "source_field": "flavourText",
+      "match_text": "it'"
+    },
+    {
+      "detailsId": "essence-scarab",
+      "name": "Essence Scarab",
+      "regex": "g\\.",
+      "source_field": "flavourText",
+      "match_text": "g."
+    },
+    {
+      "detailsId": "sulphite-scarab",
+      "name": "Sulphite Scarab",
+      "regex": "Nik",
+      "source_field": "explicit_modifier_0",
+      "match_text": "Nik"
+    },
+    {
+      "detailsId": "essence-scarab-of-stability",
+      "name": "Essence Scarab of Stability",
+      "regex": "upg",
+      "source_field": "explicit_modifier_0",
+      "match_text": "upg"
+    },
+    {
+      "detailsId": "delirium-scarab-of-neuroses",
+      "name": "Delirium Scarab of Neuroses",
+      "regex": "1\\+",
+      "source_field": "explicit_modifier_0",
+      "match_text": "1+"
+    },
+    {
+      "detailsId": "torment-scarab-of-peculiarity",
+      "name": "Torment Scarab of Peculiarity",
+      "regex": "d-",
+      "source_field": "flavourText",
+      "match_text": "d-"
+    },
+    {
+      "detailsId": "harvest-scarab",
+      "name": "Harvest Scarab",
+      "regex": "val",
+      "source_field": "flavourText",
+      "match_text": "val"
+    },
+    {
+      "detailsId": "ritual-scarab-of-selectiveness",
+      "name": "Ritual Scarab of Selectiveness",
+      "regex": "tiv",
+      "source_field": "name",
+      "match_text": "tiv"
+    },
+    {
+      "detailsId": "expedition-scarab-of-verisium-powder",
+      "name": "Expedition Scarab of Verisium Powder",
+      "regex": "isi",
+      "source_field": "name",
+      "match_text": "isi"
+    },
+    {
+      "detailsId": "beyond-scarab",
+      "name": "Beyond Scarab",
+      "regex": "oge",
+      "source_field": "explicit_modifier_0",
+      "match_text": "oge"
+    },
+    {
+      "detailsId": "incursion-scarab",
+      "name": "Incursion Scarab",
+      "regex": "Alv",
+      "source_field": "explicit_modifier_0",
+      "match_text": "Alv"
+    },
+    {
+      "detailsId": "legion-scarab-of-command",
+      "name": "Legion Scarab of Command",
+      "regex": "omm",
+      "source_field": "name",
+      "match_text": "omm"
+    },
+    {
+      "detailsId": "blight-scarab",
+      "name": "Blight Scarab",
+      "regex": "w\\.",
+      "source_field": "flavourText",
+      "match_text": "w."
+    },
+    {
+      "detailsId": "incursion-scarab-of-invasion",
+      "name": "Incursion Scarab of Invasion",
+      "regex": "gat",
+      "source_field": "flavourText",
+      "match_text": "gat"
+    },
+    {
+      "detailsId": "ultimatum-scarab",
+      "name": "Ultimatum Scarab",
+      "regex": "eng",
+      "source_field": "flavourText",
+      "match_text": "eng"
+    },
+    {
+      "detailsId": "scarab-of-adversaries",
+      "name": "Scarab of Adversaries",
+      "regex": "Adv",
+      "source_field": "name",
+      "match_text": "Adv"
+    },
+    {
+      "detailsId": "sulphite-scarab-of-fumes",
+      "name": "Sulphite Scarab of Fumes",
+      "regex": "k,",
+      "source_field": "flavourText",
+      "match_text": "k,"
+    },
+    {
+      "detailsId": "abyss-scarab",
+      "name": "Abyss Scarab",
+      "regex": "uls",
+      "source_field": "flavourText",
+      "match_text": "uls"
+    },
+    {
+      "detailsId": "delirium-scarab",
+      "name": "Delirium Scarab",
+      "regex": "inn",
+      "source_field": "flavourText",
+      "match_text": "inn"
+    },
+    {
+      "detailsId": "torment-scarab",
+      "name": "Torment Scarab",
+      "regex": "5-",
+      "source_field": "explicit_modifier_0",
+      "match_text": "5-"
+    },
+    {
+      "detailsId": "influencing-scarab-of-the-shaper",
+      "name": "Influencing Scarab of the Shaper",
+      "regex": "awai",
+      "source_field": "flavourText",
+      "match_text": "awai"
+    },
+    {
+      "detailsId": "bestiary-scarab",
+      "name": "Bestiary Scarab",
+      "regex": "stm",
+      "source_field": "flavourText",
+      "match_text": "stm"
+    },
+    {
+      "detailsId": "expedition-scarab",
+      "name": "Expedition Scarab",
+      "regex": "cro",
+      "source_field": "flavourText",
+      "match_text": "cro"
+    },
+    {
+      "detailsId": "betrayal-scarab",
+      "name": "Betrayal Scarab",
+      "regex": "Jun",
+      "source_field": "explicit_modifier_0",
+      "match_text": "Jun"
+    },
+    {
+      "detailsId": "domination-scarab",
+      "name": "Domination Scarab",
+      "regex": "sim",
+      "source_field": "flavourText",
+      "match_text": "sim"
+    },
+    {
+      "detailsId": "influencing-scarab-of-the-elder",
+      "name": "Influencing Scarab of the Elder",
+      "regex": "voi",
+      "source_field": "flavourText",
+      "match_text": "voi"
+    },
+    {
+      "detailsId": "scarab-of-hunted-traitors",
+      "name": "Scarab of Hunted Traitors",
+      "regex": "rai",
+      "source_field": "name",
+      "match_text": "rai"
+    },
+    {
+      "detailsId": "beyond-scarab-of-haemophilia",
+      "name": "Beyond Scarab of Haemophilia",
+      "regex": "aem",
+      "source_field": "name",
+      "match_text": "aem"
+    },
+    {
+      "detailsId": "anarchy-scarab-of-partnership",
+      "name": "Anarchy Scarab of Partnership",
+      "regex": "rtn",
+      "source_field": "name",
+      "match_text": "rtn"
+    },
+    {
+      "detailsId": "torment-scarab-of-possession",
+      "name": "Torment Scarab of Possession",
+      "regex": "rte",
+      "source_field": "explicit_modifier_0",
+      "match_text": "rte"
+    },
+    {
+      "detailsId": "scarab-of-divinity",
+      "name": "Scarab of Divinity",
+      "regex": "-3",
+      "source_field": "explicit_modifier_0",
+      "match_text": "-3"
+    },
+    {
+      "detailsId": "cartography-scarab-of-escalation",
+      "name": "Cartography Scarab of Escalation",
+      "regex": "ala",
+      "source_field": "name",
+      "match_text": "ala"
+    },
+    {
+      "detailsId": "titanic-scarab",
+      "name": "Titanic Scarab",
+      "regex": "ge,",
+      "source_field": "explicit_modifier_0",
+      "match_text": "ge,"
+    },
+    {
+      "detailsId": "betrayal-scarab-of-the-allflame",
+      "name": "Betrayal Scarab of the Allflame",
+      "regex": "llf",
+      "source_field": "name",
+      "match_text": "llf"
+    }
+  ]
+}
